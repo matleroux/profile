@@ -8,69 +8,82 @@
   <title>My Profile Page</title>
 </head>
 <body>
-  <div class="container">
-  <div class="cards text-center">
-    <h1>Mathieu Le Roux</h1>
-    <img src="images/MLR.png" alt="MLR profile picture" height= 200px class="round_img" id="profile_pic">
-    <h2>Cofounder Le Wagon do Brasil</h2>
-    <p>After 15 years of experience in startups, I decided to learn how to code and launch a coding bootcamp in Brazil at the same time. What an awesome adventure!</p>
-  </div>
-  <div class="cards text-center">
-    <ul class="list-inline">
-      <li class="text-center">
-        <a href="http://www.twitter.com/matleroux" target="_blank">
-          <i class="fa fa-twitter" aria-hidden="true"></i> Twitter
-        </a>
-      </li>
-      <li class="text-center">
-        <a href="http://www.medium.com/@matleroux" target="_blank">
-          <i class="fa fa-medium" aria-hidden="true"></i> Medium
-        </a>
-      </li>
-      <li class="text-center">
-        <a href="http://www.linkedin.com/in/matleroux" target="_blank">
-          <i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin
-        </a>
-      </li>
-    </ul>
-  </div>
-  <div class="cards text-center">
-    <h2>My Top Things</h2>
-    <table>
-      <tbody>
-        <tr>
-          <td>
-            <img src="images/strikesback.jpg" alt="The Empire Strikes Back Poster" class="round_corners width_images">
-          </td>
-          <td>
-            <h3>Best Movie : The Empire Strikes Back</h3>
-            <p>To this day, one of the most epic story, and beautifully crafted special effect movie I've ever seen. You keep watching it without noticing it's that old...</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src="images/monkriddle.jpg" alt="The Monk and The Riddle cover" class="round_corners width_images">
-          </td>
-          <td>
-            <h3>Best Book : The monk and the Riddle</h3>
-            <p>Excellent book by Randy Komisar on finding one's meaning in life, especially professional life where money and power can corrupt you so fast.</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src="images/foronce.jpg" alt="For Once in My Life CD Cover" class="round_corners width_images">
-          </td>
-          <td>
-            <h3>Best Music : For Once in my life</h3>
-            <p>A swing song written by Ron Miller and Orlando Murden. The uptempo arrangement by Stevie Wonder, issued on Motown's Tamla label, was a top 3 hit in the United States in the late 60's.</p>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <div class="cards text-center">
-    <h2>About this page</h2>
-    <p>This page was built during the <a href="http://www.lewagon.com/sp" target="_blank"><i class="fa fa-bus" aria-hidden="true"></i> Bootcamp Le Wagon <i class="fa fa-bus" aria-hidden="true"></i></a> in São Paulo, an amazing learning experience.</p>
+  <div id="wrapper">
+    <div id="left-container">
+      <div class="cards text-center">
+        <img src="images/MLR.png" alt="MLR profile picture" class="round_img" id="profile_pic">
+        <h1>Mathieu Le Roux</h1>
+        <h2>Cofounder Le Wagon do Brasil</h2>
+        <p>After 15 years of experience in startups, I decided to learn how to code and launch a coding bootcamp in Brazil at the same time. <br> Software is eating the world, better learn how to cook ;-)</p>
+        <a href="http://www.lewagon.com/program" class="btn-blue">Check the Program!</a>
+      </div>
+      <div class="cards text-center">
+        <ul class="list-inline">
+          <li class="text-center">
+            <a href="http://www.twitter.com/matleroux" target="_blank">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <br>
+              Twitter
+            </a>
+          </li>
+          <li class="text-center">
+            <a href="http://www.medium.com/@matleroux" target="_blank">
+              <i class="fa fa-medium" aria-hidden="true"></i>
+              <br>
+              Medium
+            </a>
+          </li>
+          <li class="text-center">
+            <a href="http://www.github.com/matleroux" target="_blank">
+              <i class="fa fa-git" aria-hidden="true"></i>
+              <br>
+              Github
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="right-container">
+      <div class="cards text-center">
+        <h2>My Personnal Top</h2>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <img src="images/strikesback.jpg" alt="The Empire Strikes Back Poster" class="round_corners width_images">
+              </td>
+              <td>
+                <h3>Best Movie : The Empire Strikes Back</h3>
+                <p>To this day, one of the most epic story, and beautifully crafted special effect movie I've ever seen. You keep watching it without noticing it's that old...</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="images/monkriddle.jpg" alt="The Monk and The Riddle cover" class="round_corners width_images">
+              </td>
+              <td>
+                <h3>Best Book : The monk and the Riddle</h3>
+                <p>Excellent book by Randy Komisar on finding one's meaning in life, especially professional life where money and power can corrupt you so fast.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="images/foronce.jpg" alt="For Once in My Life CD Cover" class="round_corners width_images">
+              </td>
+              <td>
+                <h3>Best Music : For Once in my life</h3>
+                <p>A swing song written by Ron Miller and Orlando Murden. The uptempo arrangement by Stevie Wonder, issued on Motown's Tamla label, was a top 3 hit in the United States in the late 60's.</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <div class="cards" id="footer" >
+      <h2>About this page</h2>
+      <p>This page was built during the <a href="http://www.lewagon.com/sp" target="_blank"><i class="fa fa-truck" aria-hidden="true"></i> Bootcamp Le Wagon <i class="fa fa-truck" aria-hidden="true"></i></a> in São Paulo, an amazing learning experience.</p>
+    </div>
   </div>
 </body>
 </html>

@@ -1,12 +1,8 @@
-h1 {
-  color: #666666;
-}
-
 body {
   background-color: #EBEBEB;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  color: #4B89AC;
+  color: #7d7d7d;
   font-size: 15px;
   line-height: 1.6em;
 }
@@ -17,8 +13,8 @@ body {
 }
 
 #profile_pic {
-  width: 200px;
-  height: 200px;
+  width: 120px;
+  height: 120px;
   border: 3px solid #cccccc;
 }
 
@@ -27,12 +23,12 @@ body {
 }
 
 .width_images {
-  max-width:100%;
+  max-width:50%;
 }
 
 
 a {
-    color: ##4B89AC;
+    color: #B3B3B3;
     text-decoration: none;
     font-family: 'Open Sans 700', sans-serif;
 }
@@ -57,9 +53,12 @@ h1, h2, h3 {
     font-family: 'Raleway', sans-serif;
 }
 
-.container {
-  width: 500px;
-  margin: 0 auto;
+#wrapper {
+    padding: 20px;
+    width: 1000px;
+    margin: 20px auto;
+    border-radius: 2px;
+    background: rgba(175, 175, 175, 0.1);
 }
 
 div {
@@ -67,17 +66,22 @@ div {
 }
 
 .cards {
-    background: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 4px;
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 }
+
+.cards:last-child {
+  margin-bottom: 0px;
+}
+
 .text-center {
     text-align: center;
 }
 
-p {
+p, h3 {
     text-align: justify;
 }
 
@@ -88,4 +92,42 @@ p {
 
 .list-inline {
   padding-left: 0px;
+}
+
+.list-inline li i {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.clear {
+  clear: both;
+}
+
+#left-container {
+    width: 35%;
+    float: left;
+    min-height: 600px;
+}
+
+#right-container {
+    width: 60%;
+    float: right;
+    min-height: 600px;
+}
+
+#right-container .cards {
+    min-height: 533px;
+}
+
+.btn-blue {
+    background-color: #446491;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.btn-blue:hover {
+    background-color: #2D4059;
+    color: white;
 }
